@@ -1,0 +1,151 @@
+:root {
+  --primary-heder-color: #303030;
+  --second-heder-color: #FFFFFF;
+  --primary-ltnk-color: #FFFFFF;
+  --accent-color: #FF6C00;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/*---HEADER---*/
+.header {
+  background-color:gray;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-ltnk-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;  
+  color: var(--primary-ltnk-color);
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--accent-color);
+}
+
+/*---HERO---*/
+.hero { background-color:rgb(168, 130, 130);}
+
+.sub-title {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;    
+    text-transform: uppercase;  
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;  
+    color: var(--second-heder-color);
+}
+
+.hero-text {
+  font-size: 18px;
+    line-height: 1.67;    
+    letter-spacing: 0.02em;  
+    color: #9DA4BD;
+}
+
+.hero-link {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--primary-heder-color)
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+/*---ABOUT---*/
+.about {
+  
+}
+
+.about-pre-title {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.about-title {
+  font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;  
+    color: var(--primary-heder-color);
+}
+
+.about-after-title {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67; 
+    letter-spacing: 0.02em;  
+    color: #555555;
+}
+
+.about-text {
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;  
+    color: #555555;
+}
+
+.about-btn {
+  font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+  }
+  
+.about-btn:hover,
+.about-btn:focus {
+    color: var(--accent-color);
+  }
+
+/*---ABOUT---*/
